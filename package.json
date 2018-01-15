@@ -1,0 +1,31 @@
+{
+  "name": "node-debug-kubernetes-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehiyam/node-debug-kubernetes-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yehiyam/node-debug-kubernetes-server/issues"
+  },
+  "homepage": "https://github.com/yehiyam/node-debug-kubernetes-server#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "kubernetes-client": "^3.17.2",
+    "socket.io-client": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
